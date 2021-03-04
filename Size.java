@@ -25,7 +25,7 @@ public enum Size
  public String toString() {
  return this.description;
  }
- public String getDescription() {
+ public String getDescription() { //descrição do copo
  return description;
  }
  public int getMinValue() {
@@ -37,3 +37,5 @@ public enum Size
  public char getCode() {
  return code;
 }}
+
+//exemplo de documentação javaDOC
